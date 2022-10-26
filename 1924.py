@@ -5,7 +5,7 @@
 import sys 
 
 mon_list = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-week_list = ["SUN", "MON", "TUE", "WEN", "THU", "FRI", "SAT"]
+week_list = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"]
 
 a,b = map(int, sys.stdin.readline().split())
 day = 0
