@@ -16,3 +16,20 @@ while len(q) > 1:
 answer.append(q[0])
 
 print(str(answer).replace('[','<').replace(']','>'))
+
+# import sys
+
+# n, k = map(int, sys.stdin.readline().split())
+# q = [i+1 for i in range(n)]
+# answer = []
+# num = k-1
+
+# for i in range(n):
+#   if len(q) > num:
+#     answer.append(q.pop(num))
+#     num += k-1
+#   elif len(q) <= num:
+#     num = num % len(q)
+#     answer.append(q.pop(num))
+#     num += k-1
+    
